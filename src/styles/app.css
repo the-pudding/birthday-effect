@@ -21,6 +21,7 @@
 	--font-body: var(--serif);
 	--font-form: var(--sans);
 	--color-bg: var(--color-white);
+	--color-bg-dark: var(--color-gray-100);
 	--color-fg: var(--color-gray-900);
 	--color-primary: var(--color-black);
 	--color-link: var(--color-black);
@@ -38,6 +39,8 @@
 
 	/* "1" second duration */
 	--1s: 1ms;
+
+	--col-width: 40rem;
 }
 
 /* dark theme */
@@ -77,8 +80,18 @@ h6 {
 	font-size: var(--20px, 20px);
 }
 
+p, aside, code {
+	font-size: var(--20px, 20px);
+}
+
 svg {
 	display: block;
 	width: 100%;
 	height: auto;
+}
+
+span.emoji {
+	display: block;
+	text-align: center;
+	font-size: 2em;
 }
