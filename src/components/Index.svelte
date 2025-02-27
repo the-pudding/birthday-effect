@@ -17,6 +17,10 @@
 </svelte:boundary>
 
 <style>
+	:global(section) {
+		padding: 0 16px;
+	}
+
 	:global(section p, section code, section aside) {
 		display: block;
 		margin: 32px auto;
