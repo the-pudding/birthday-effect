@@ -28,11 +28,22 @@
 	}
 
 	:global(section aside, section code) {
-		background: var(--color-bg-dark);
+		background: var(--color-bg-alt);
 		padding: 16px;
 	}
 
 	:global(section code) {
 		text-align: center;
+	}
+
+	:global(span.center) {
+		display: block;
+		text-align: center;
+	}
+
+	:global(span.emoji) {
+		display: block;
+		text-align: center;
+		font-size: 2em;
 	}
 </style>

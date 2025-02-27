@@ -15,7 +15,7 @@
 	span.big {
 		text-align: center;
 		display: inline-block;
-		font-size: clamp(var(--96px), 12vw, var(--160px));
+		font-size: clamp(var(--96px), 12vw, var(--144px));
 		font-weight: bold;
 		text-transform: uppercase;
 	}

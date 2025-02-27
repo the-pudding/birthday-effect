@@ -20,11 +20,11 @@
 	--border-radius: 2px;
 	--font-body: var(--serif);
 	--font-form: var(--sans);
-	--color-bg: var(--color-white);
-	--color-bg-dark: var(--color-gray-100);
-	--color-fg: var(--color-gray-900);
-	--color-primary: var(--color-black);
-	--color-link: var(--color-black);
+	--color-bg: var(--color-gray-50);
+	--color-bg-alt: var(--color-gray-200);
+	--color-fg: var(--color-gray-700);
+	--color-primary: var(--color-gray-900);
+	--color-link: var(--color-gray-900);
 	--color-link-hover: var(--color-black);
 	--color-focus: var(--color-red);
 	--color-mark: var(--color-yellow);
@@ -90,8 +90,7 @@ svg {
 	height: auto;
 }
 
-span.emoji {
-	display: block;
-	text-align: center;
-	font-size: 2em;
-}
+
+/* strong {
+	color: var(--color-white);
+} */
