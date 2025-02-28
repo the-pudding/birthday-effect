@@ -32,6 +32,12 @@
 		padding: 16px;
 	}
 
+	:global(span.emoji) {
+		display: block;
+		text-align: center;
+		font-size: 2em;
+	}
+
 	:global(section code) {
 		text-align: center;
 	}
