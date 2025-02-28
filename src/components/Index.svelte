@@ -42,14 +42,19 @@
 		text-align: center;
 	}
 
-	:global(span.center) {
+	:global(section span.center) {
 		display: block;
 		text-align: center;
 	}
 
-	:global(span.emoji) {
+	:global(section span.emoji) {
 		display: block;
 		text-align: center;
+		font-size: 2.5em;
+		line-height: 1;
+	}
+
+	:global(section .big) {
 		font-size: 2em;
 	}
 </style>
