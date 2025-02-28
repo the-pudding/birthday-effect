@@ -25,9 +25,13 @@ mark {
 	padding: 0 4px;
 }
 
-a {
+a, a:visited {
 	color: var(--color-link, blue);
 	text-decoration: 2px underline var(--color-link, blue);
+}
+
+a:hover {
+	color: var(--color-link-hover, blue);
 }
 
 

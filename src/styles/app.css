@@ -20,11 +20,11 @@
 	--border-radius: 2px;
 	--font-body: var(--serif);
 	--font-form: var(--sans);
-	--color-bg: var(--color-gray-50);
+	--color-bg: var(--color-white);
 	--color-bg-alt: var(--color-gray-200);
 	--color-fg: var(--color-gray-700);
 	--color-primary: var(--color-gray-900);
-	--color-link: var(--color-gray-900);
+	--color-link: var(--color-fg);
 	--color-link-hover: var(--color-black);
 	--color-focus: var(--color-red);
 	--color-mark: var(--color-yellow);
