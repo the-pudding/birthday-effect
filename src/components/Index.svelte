@@ -21,7 +21,7 @@
 		padding: 0 16px;
 	}
 
-	:global(section p, section code, section aside) {
+	:global(section > *) {
 		display: block;
 		margin: 32px auto;
 		max-width: var(--col-width);
