@@ -80,7 +80,7 @@ h6 {
 	font-size: var(--20px, 20px);
 }
 
-p, aside, code {
+p, aside, code, blockquote {
 	font-size: var(--20px, 20px);
 }
 
