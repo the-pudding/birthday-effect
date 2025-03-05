@@ -6,7 +6,7 @@
 	let div = $state();
 	let index = $state(0);
 	// let data = $derived(rawData[index].days.filter((d) => Math.abs(d.day) <= 50));
-	let data = $derived(rawData.filter((d) => Math.abs(d.day) <= 30));
+	let data = $derived(rawData.filter((d) => Math.abs(d.day) <= 200));
 
 	$effect(() => {
 		// convert count to percent
