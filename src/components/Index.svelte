@@ -57,4 +57,8 @@
 	:global(section .big) {
 		font-size: 2em;
 	}
+
+	:global(section img) {
+		width: 100%;
+	}
 </style>
