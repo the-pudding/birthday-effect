@@ -61,4 +61,8 @@
 	:global(section img) {
 		width: 100%;
 	}
+
+	:global(section img.emoji) {
+		max-width: 64px;
+	}
 </style>
