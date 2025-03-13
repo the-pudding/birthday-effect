@@ -9,6 +9,15 @@
 			>{@html wordmark}</a
 		>
 	</div>
+	<p class="byline">
+		<small>
+			By <a
+				target="_blank"
+				rel="noreferrer"
+				href="https://pudding.cool/author/russell-samora">Russell Samora</a
+			></small
+		>
+	</p>
 </header>
 
 <style>
@@ -27,5 +36,32 @@
 
 	.wordmark a:hover {
 		background-color: transparent;
+	}
+
+	.byline {
+		position: absolute;
+		top: 16px;
+		right: 16px;
+		margin: 0;
+		line-height: 1;
+	}
+
+	@media (max-width: 600px) {
+		.byline {
+			position: relative;
+			top: 12px;
+		}
+
+		header {
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-start;
+		}
+
+		.wordmark {
+			margin: 0;
+			padding: 16px;
+			max-width: 10em;
+		}
 	}
 </style>
