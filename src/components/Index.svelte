@@ -56,6 +56,7 @@
 
 	:global(section .big) {
 		font-size: 2em;
+		line-height: 1.2;
 	}
 
 	:global(section img) {

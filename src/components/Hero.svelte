@@ -18,6 +18,7 @@
 		font-size: clamp(var(--96px), min(15vw, 20vh), var(--144px));
 		font-weight: bold;
 		text-transform: uppercase;
+		line-height: 1;
 	}
 
 	span.small {
