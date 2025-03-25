@@ -80,8 +80,12 @@ h6 {
 	font-size: var(--20px, 20px);
 }
 
-p, aside, code, blockquote {
-	font-size: var(--20px, 20px);
+p, aside, blockquote {
+	font-size: var(--18px, 18px);
+}
+
+code {
+	font-size: var(--14px, 14px);
 }
 
 svg {
@@ -91,6 +95,12 @@ svg {
 }
 
 
-/* strong {
-	color: var(--color-white);
-} */
+@media (min-width: 600px) {
+	p, aside, blockquote {
+		font-size: var(--20px, 20px);
+	}
+
+	code {
+		font-size: var(--18px, 18px);
+	}
+}

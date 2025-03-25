@@ -7,63 +7,64 @@
 	const copy = getContext("copy");
 	const { body } = copy;
 	const components = { Hero };
-	// const data = getContext("data");
 </script>
 
-<CMS {body} {components}></CMS>
+<div id="story">
+	<CMS {body} {components}></CMS>
+</div>
 
 <svelte:boundary onerror={(e) => console.error(e)}>
-	<!-- <Footer recirc={true} /> -->
+	<Footer recirc={true} />
 </svelte:boundary>
 
 <style>
-	:global(section) {
+	:global(#story section) {
 		padding: 0 16px;
 	}
 
-	:global(section > *) {
+	:global(#story section > *) {
 		display: block;
 		margin: 32px auto;
 		max-width: var(--col-width);
 	}
 
-	:global(section aside, section code) {
+	:global(#story section aside, #story section code) {
 		background: var(--color-bg-alt);
 		padding: 16px;
 	}
 
-	:global(span.emoji) {
+	:global(#stroy span.emoji) {
 		display: block;
 		text-align: center;
 		font-size: 2em;
 	}
 
-	:global(section code) {
+	:global(#story section code) {
 		text-align: center;
 	}
 
-	:global(section span.center) {
+	:global(#story section span.center) {
 		display: block;
 		text-align: center;
 	}
 
-	:global(section span.emoji) {
+	:global(#story section span.emoji) {
 		display: block;
 		text-align: center;
 		font-size: 2.5em;
 		line-height: 1;
 	}
 
-	:global(section .big) {
+	:global(#story section strong.big) {
 		font-size: 2em;
 		line-height: 1.2;
 	}
 
-	:global(section img) {
+	:global(#story section img) {
 		width: 100%;
 	}
 
-	:global(section img.emoji) {
+	:global(#story section img.emoji) {
 		max-width: 64px;
 	}
 </style>
